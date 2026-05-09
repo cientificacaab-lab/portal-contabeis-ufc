@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bolsas",
+  "info": {
+    "singularName": "bolsa",
+    "pluralName": "bolsas",
+    "displayName": "Bolsa"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "requisitos": {
+      "type": "blocks"
+    },
+    "valor": {
+      "type": "string"
+    },
+    "link_edital": {
+      "type": "string"
+    }
+  }
+}
